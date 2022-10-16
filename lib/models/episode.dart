@@ -1,16 +1,15 @@
 
-import 'dart:convert';
 import 'dart:math';
 
 //Class Character is the model of the characters
-class Episodes {
+class Episode {
   //we have all atrributes of the characters
-    Episodes({
+    Episode({
         required this.id,
         required this.name,
         required this.airDate,
         required this.episode,
-        required this.url,
+        required this.url
     });
 
     //initialization of the attributes
@@ -19,6 +18,7 @@ class Episodes {
     String airDate;
     String episode;
     String url;
+    
     //we created a list of images becaouse in the api there weren't images from the episodes
     List<String> images = ['https://cdn.mos.cms.futurecdn.net/T7XVEDX27hxmVEV7nVir5K.jpg',
     'https://cdn.mos.cms.futurecdn.net/iPgBzYHZpG54etp7bT2h8J.jpg',
@@ -31,7 +31,7 @@ class Episodes {
     'https://i.blogs.es/cfa26e/rickandmortycabecera/1366_2000.jpg'];
 
     //method that converts the json to a character
-    factory Episodes.fromJson(Map<String, dynamic> json) => Episodes(
+    factory Episode.fromJson(Map<String, dynamic> json) => Episode(
         id: json["id"],
         name: json["name"],
         airDate: json["air_date"],

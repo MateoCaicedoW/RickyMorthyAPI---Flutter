@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:ricky_and_morthy/models/episodes.dart';
+import 'package:ricky_and_morthy/models/episode.dart';
 
 class CardEpisode extends StatefulWidget {
   //Receive the episode
-  final Episodes episode;
+  final Episode episode;
    const CardEpisode({Key? key, required this.episode}) : super(key: key);
 
   @override

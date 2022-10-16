@@ -2,8 +2,8 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:ricky_and_morthy/models/characters.dart';
-import 'package:ricky_and_morthy/models/episodes.dart';
+import 'package:ricky_and_morthy/models/character.dart';
+import 'package:ricky_and_morthy/models/episode.dart';
 
 /// Service to fetch data from the Rick and Morty API
 ///
@@ -34,13 +34,13 @@ class Fetch {
   /// We have to use Future because the data is not available immediately
   /// We have to use async because we are using await
   /// we have a parameter [list] to fetch a specific list of episodes
-  static Future<List<Episodes>> getEpisodes(List<String> list) async {
+  static Future<List<Episode>> getEpisodes(List<String> list) async {
     
     // Create the URL
     final response = await fetcher('/episode/$list');
     // Decode the JSON
-    List<Episodes> episodes = response.map<Episodes>((episode) {
-      return Episodes.fromJson(episode);
+    List<Episode> episodes = response.map<Episode>((episode) {
+      return Episode.fromJson(episode);
     }).toList();
 
     // Return the list of episodes

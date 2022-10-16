@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ricky_and_morthy/models/episodes.dart' as episodes;
+import 'package:ricky_and_morthy/models/episode.dart' as episodes;
 import 'package:ricky_and_morthy/widgets/card_episode.dart';
 //Created a method to return a list of widgets
-List<Widget> listEpisodes(List<episodes.Episodes> data){
+List<Widget> listEpisodes(List<episodes.Episode> data){
   //we create a list of widgets
   List<Widget> episodes = [];
   for(var item in data){

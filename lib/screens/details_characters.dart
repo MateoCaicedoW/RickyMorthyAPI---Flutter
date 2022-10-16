@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:ricky_and_morthy/models/characters.dart';
-import 'package:ricky_and_morthy/models/episodes.dart';
+import 'package:ricky_and_morthy/models/character.dart';
+import 'package:ricky_and_morthy/models/episode.dart';
 import 'package:ricky_and_morthy/provider/fetch_api.dart';
 import 'package:ricky_and_morthy/widgets/lists_episodes.dart';
 
@@ -21,12 +21,12 @@ class _DetailsCharactesState extends State<DetailsCharactes> {
   //we create a list of episodes
   //we use the FutureBuilder to get the episodes 
   //We initialized the params needed
-  late Future<List<Episodes>> _episodes;
+  late Future<List<Episode>> _episodes;
   final _controller = ScrollController();
   @override
   void initState() {
     super.initState();
-    _episodes = Fetch.getEpisodes(widget.character.episode);
+    _episodes = Fetch.getEpisodes(widget.character.episodes);
    
   }
 
@@ -74,7 +74,7 @@ class _DetailsCharactesState extends State<DetailsCharactes> {
                 const Padding(padding: EdgeInsets.all(10)),
                 //we show the episodes of the character
                 const Text(
-                  "Episodes",
+                  "Episode",
                   style:  TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
@@ -90,7 +90,7 @@ class _DetailsCharactesState extends State<DetailsCharactes> {
                   //we check if the snapshot has data
                   if (snapshot.hasData) {
                     //we return the widget ListsEpisodes
-                    final list = listEpisodes(snapshot.data as List<Episodes>);
+                    final list = listEpisodes(snapshot.data as List<Episode>);
                     return ListView(
                       //we use the controller to scroll the list
                       controller: _controller,  

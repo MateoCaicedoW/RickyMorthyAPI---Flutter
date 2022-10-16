@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ricky_and_morthy/models/characters.dart' as character;
+import 'package:ricky_and_morthy/models/character.dart' as character;
 import 'package:ricky_and_morthy/widgets/card_characters.dart';
 //Class ListCharacters is the widget that contains the list of characters
 List<Widget> listCharacters(List<character.Character> data){

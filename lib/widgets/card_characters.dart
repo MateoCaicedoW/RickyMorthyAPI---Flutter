@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ricky_and_morthy/models/characters.dart';
+import 'package:ricky_and_morthy/models/character.dart';
 import 'package:ricky_and_morthy/screens/details_characters.dart';
 
 // ignore: must_be_immutable

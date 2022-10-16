@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:ricky_and_morthy/models/location.dart';
 
 //Class Character is the model of the characters
@@ -13,7 +12,7 @@ class Character {
         required this.gender,
         required this.location,
         required this.image,
-        required this.episode,
+        required this.episodes,
     });
     //initialization of the attributes
     int id;
@@ -24,7 +23,7 @@ class Character {
     String gender;
     Location location;
     String image;
-    List<String> episode;
+    List<String> episodes;
 
     //method that converts the json to a character
     factory Character.fromJson(Map<String, dynamic> json) => Character(
@@ -36,7 +35,7 @@ class Character {
         gender: json["gender"],
         location: Location.fromJson(json["location"]),
         image: json["image"],
-        episode: List<String>.from(json["episode"].map((x) => x.split('/').last)),
+        episodes: List<String>.from(json["episode"].map((x) => x.split('/').last)),
       
     );
 
@@ -50,7 +49,7 @@ class Character {
         "gender": gender,
         "location": location.toJson(),
         "image": image,
-        "episode": List<dynamic>.from(episode.map((x) => x)),
+        "episode": List<dynamic>.from(episodes.map((x) => x)),
     };
 }
 
