@@ -3,8 +3,8 @@
  Hi! In this app you are able to see all characters form the ricky and morthy serie, you also are able to see each episode where the character appears.
 <img src="assets/header.jpg" alt="Pic"/>
 
-# Download
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MateoCaicedoW/RickyMorthyAPI---Flutter/releases/download/v1.0.0/app-release.apk)
+# Download App Here!
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-green?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MateoCaicedoW/RickyMorthyAPI---Flutter/releases/download/v1.0.0/app-release.apk)
 
 ## Built with
 
