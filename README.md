@@ -4,7 +4,7 @@
 <img src="assets/header.jpg" alt="Pic"/>
 
 # Download
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MateoCaicedoW/RickyMorthyAPI---Flutter/blob/main/files/app-release.apk)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MateoCaicedoW/RickyMorthyAPI---Flutter/releases/download/v1.0.0/app-release.apk)
 
 ## Built with
 
