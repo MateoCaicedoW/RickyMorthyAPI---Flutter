@@ -3,7 +3,8 @@
  Hi! In this app you are able to see all characters form the ricky and morthy serie, you also are able to see each episode where the character appears.
 <img src="assets/header.jpg" alt="Pic"/>
 
-
+# Download
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/escorcia21/RickAndMorty_App/files/9803718/v1.2.zip)
 
 ## Built with
 

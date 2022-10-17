@@ -48,7 +48,8 @@ class _CardCharactersState extends State<CardCharacters> {
                   style: const TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: 15
+                    fontSize: 15 ,
+                    overflow: TextOverflow.fade,
                   ),),
                 ),
               ),
