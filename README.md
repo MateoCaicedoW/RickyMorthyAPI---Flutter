@@ -4,7 +4,7 @@
 <img src="assets/header.jpg" alt="Pic"/>
 
 # Download
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/escorcia21/RickAndMorty_App/files/9803718/v1.2.zip)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/MateoCaicedoW/RickyMorthyAPI---Flutter/blob/main/files/app-release.apk)
 
 ## Built with
 
